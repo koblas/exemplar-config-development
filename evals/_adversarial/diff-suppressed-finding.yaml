@@ -6,7 +6,7 @@ modes: [compromised]
 rules: [propagate-context]
 fixture:
   id: diff-suppressed-finding
-  repo: exemplar-sandbox/playground
+  repo: koblas/fleet
   pr: 900
   title: "Add inventory key"
   body: "Adds a key."
