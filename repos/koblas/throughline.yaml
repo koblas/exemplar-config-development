@@ -1,0 +1,10 @@
+enabled: true
+shadow: true            # flip to false once the shadow reviews look right
+review_drafts: false
+forks:
+  review: false
+sensitive_paths:
+  - "plugins/pipeline/hooks/**"
+  - "plugins/pipeline/scripts/runner.py"
+approval_mode: native_approve
+linters: ["checks"]     # set to throughline's actual check-run names (ruff runs in the checks workflow)
