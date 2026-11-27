@@ -2,7 +2,7 @@
 # for each repo, so its path names the repo. Files that do not end in .yaml
 # are not loaded, so this template enrols nothing.
 enabled: true                 # kill switch for this repo
-shadow: true                  # set true for a first install: review and store, post nothing
+shadow: false                 # set true for a first install: review and store, post nothing
 review_drafts: true
 forks:
   review: false
